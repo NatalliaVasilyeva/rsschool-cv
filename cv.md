@@ -8,3 +8,30 @@
 * email: nn1.vasilyeva@gmail.com;
 * skype: vasnatnik;
 * github: https://github.com/NatalliaVasilyeva
+
+## __Summary:__
+---
+
+I already have programming knowledge in Java, SQL, C# and a little bit in JS.  And now I want to study new programming language for Android development. 
+
+## __Skills:__
+---
+
+- Java
+- C#
+- Spring (SpringBoot, Spring-mvc, Spring-jdbc ...)
+- REST API
+- Maven
+- Hibernate
+- MySQL
+- JPA
+- JSP
+- JUnit
+- Mockito
+- TomCat
+- CSS/HTML/JS
+- XML
+- XSTL
+- Git
+- Jira
+- Confluence
