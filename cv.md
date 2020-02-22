@@ -35,3 +35,35 @@ I already have programming knowledge in Java, SQL, C# and a little bit in JS.  A
 - Git
 - Jira
 - Confluence
+
+## __Code example:__
+---
+
+```
+public void run() {
+        try {
+            InputStream inputStream = socket.getInputStream();
+            BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream, StandardCharsets.UTF_8));
+            while (!socket.isClosed()) {
+                String message = reader.readLine();
+                ChatMessage json= MessageServiceImpl.INSTANCE.parseFromJson(message);
+                if (json != null) {
+                    if (user == null || user.isUserExit()) {
+                        user = UserServiceSingleton.INSTANCE.registerUser(json);
+                        user.setSocket(socket);
+                        user.setType(UserType.CONSOLE);
+                        UserServiceSingleton.INSTANCE.addUserToCollections(user);
+                        continue;
+                    } else
+                   CommandFactory commandFactory = new CommandFactory(user);
+                    commandFactory.startCommand(json);
+                }
+            }
+        } catch (IOException e) {
+            UserServiceSingleton.INSTANCE.exitUser(user);
+            user.disconnectUserByServer();
+            LOGGER.error("Problem with reading message  " + e.getMessage());
+        }
+    }
+```
+---
