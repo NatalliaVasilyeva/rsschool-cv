@@ -67,3 +67,12 @@ public void run() {
     }
 ```
 ---
+
+## __Experience:__
+---
+
+09.2019-now:
+ Junior java developer in product company. Write code on Java 8, 11, fix defects, write unit and functional tests for new functional
+
+03.2006-09.2019:
+ Accountant, chief accountant
