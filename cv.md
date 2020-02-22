@@ -76,3 +76,24 @@ public void run() {
 
 03.2006-09.2019:
  Accountant, chief accountant
+ 
+ ## __Education:__
+---
+
+#### *Main education:*
+
+|Educational institution                           | Specialty |Studies term|
+|------------------------------------------------- |-----------|-------------
+|Belarusian State University                       |developer  |2017 - 2019 |
+|Belarusian State Economy University               |accountant |2005 - 2010 |
+|Belarusian State College of Technology and Design |accountant |2002 - 2005 |
+
+
+#### *Additional education:*
+
+|Educational institution                           | Specialty            |Studies term|
+|------------------------------------------------- |----------------------|--------------
+|EPAM                                              |Java Web Development  |2019         |
+|Stepik                                            |Java courses          |             |
+|Udemy                                             |Spring Framework      |2018         |
+|Outlook                                           |English courses       |2015-2017    |
