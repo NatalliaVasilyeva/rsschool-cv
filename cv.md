@@ -1,6 +1,9 @@
 # __Java Developer CV__
 ---
 
+##Natallia Vasilyeva
+---
+
 ## __Contacts:__
 ---
 
@@ -76,8 +79,8 @@ public void run() {
 
 03.2006-09.2019:
  Accountant, chief accountant
- 
- ## __Education:__
+  
+## __Education:__
 ---
 
 #### *Main education:*
