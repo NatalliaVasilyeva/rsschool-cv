@@ -1,7 +1,7 @@
 # __Java Developer CV__
 ---
 
-##Natallia Vasilyeva
+## Natallia Vasilyeva
 ---
 
 ## __Contacts:__
